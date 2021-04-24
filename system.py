@@ -17,7 +17,8 @@ def simulateWithNoQuarantine():
         ds[1].append(model.S)
         ds[2].append(model.I)
         ds[3].append(model.R)
-    
+
+    plt.title("Simulation with no quarantine")
     plt.ylabel("Number of People")
     plt.xlabel("Date")
     plt.plot(ds[0], ds[1], label="Susceptible")
@@ -37,7 +38,8 @@ def simulateWithLooseQuarantine():
         ds[1].append(model.S)
         ds[2].append(model.I)
         ds[3].append(model.R)
-    
+
+    plt.title("Simulation with loose quarantine")
     plt.ylabel("Number of People")
     plt.xlabel("Date")
     plt.plot(ds[0], ds[1], label="Susceptible")
@@ -48,7 +50,7 @@ def simulateWithLooseQuarantine():
     plt.show()
 
 def simulateWithNormalQuarantine():
-    model = SIR(S, I, R, 0.1, 1./30)
+    model = SIR(S, I, R, 0.2, 1./20)
     ds = [[], [], [], []]  # [date, S, I, R]
 
     for i in range(360):
@@ -57,7 +59,8 @@ def simulateWithNormalQuarantine():
         ds[1].append(model.S)
         ds[2].append(model.I)
         ds[3].append(model.R)
-    
+        
+    plt.title("Simulation with normal quarantine")
     plt.ylabel("Number of People")
     plt.xlabel("Date")
     plt.plot(ds[0], ds[1], label="Susceptible")
@@ -77,7 +80,8 @@ def simulateWithKoreanQuarantine():
         ds[1].append(model.S)
         ds[2].append(model.I)
         ds[3].append(model.R)
-    
+
+    plt.title("Simulation with hard quarantine")
     plt.ylabel("Number of People")
     plt.xlabel("Date")
     plt.plot(ds[0], ds[1], label="Susceptible")
@@ -97,7 +101,8 @@ def simulateWithLockdown():
         ds[1].append(model.S)
         ds[2].append(model.I)
         ds[3].append(model.R)
-    
+        
+    plt.title("Simulation with lockdown")
     plt.ylabel("Number of People")
     plt.xlabel("Date")
     plt.plot(ds[0], ds[1], label="Susceptible")
