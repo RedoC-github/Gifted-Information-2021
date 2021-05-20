@@ -5,4 +5,4 @@
 
 📷 Screenshot
 ---
-![](https://raw.githubusercontent.com/RedoC-github/Gifted-Information-2021/master/Screen%20Shot%202021-04-23%20at%209.27.48%20PM.png)
+![](./screenshot)
