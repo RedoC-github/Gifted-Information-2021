@@ -1,7 +1,7 @@
-# :hammer: This is an archive repo for JNU Information Advanced Gifted 2021
+# :floppy_disk: Archive JNU Information Advanced Gifted 2021
 
-List
-___
+### List
+
 - [Day 1. Visualize](./Day1)
 - [Day 2. Linear Regression](./Day2)
 
