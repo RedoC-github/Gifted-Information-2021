@@ -2,7 +2,7 @@
 
 ### List
 
-- [Day 1. Visualize](./Day\ 1)
-- [Day 2. Linear Regression](./Day\ 2)
+- [Day 1. Visualize](https://github.com/RedoC-github/Gifted-Information-2021/tree/master/Day%201)
+- [Day 2. Linear Regression](https://github.com/RedoC-github/Gifted-Information-2021/tree/master/Day%202)
 
 This Repo is under of MIT License. Thank you.
